@@ -10,6 +10,7 @@
 
 <style lang="scss" scoped>
 .content {
+  display: block;
   position: relative;
   padding: 25px;
   width: 80vw;
