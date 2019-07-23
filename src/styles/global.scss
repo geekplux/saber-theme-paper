@@ -1,0 +1,58 @@
+@import './variables.scss';
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga"on;
+  transition: all 250ms ease;
+}
+
+body {
+  font-family: Baskerville, "Times New Roman", "Liberation Serif", STFangsong, FangSong, FangSong_GB2312, "CWTEX\-F", serif;
+  font-size: 20px;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Baskerville, Georgia, "Liberation Serif", "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  fill: rgba(20, 20, 31, 0.2);
+}
+
+.pagination {
+  color: $gray;
+  overflow: auto;
+  font-size: 14px;
+  border-top: 1px solid $gray-lighter;
+  padding-top: 2.5em;
+
+  .next-link {
+    float: left;
+  }
+
+  .prev-link {
+    float: right;
+  }
+}
