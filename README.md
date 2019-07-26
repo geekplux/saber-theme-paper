@@ -8,6 +8,12 @@
 
 - [Demo site](https://geekplux.com)
 
+
+## Preview
+
+![](preview/desktop.jpg)
+<!-- ![](preview/mobile.jpg) -->
+
 ## Install
 
 ```bash
