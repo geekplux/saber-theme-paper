@@ -84,6 +84,7 @@ header {
   position: absolute;
   top: 30px;
   right: 10vw;
+  margin-left: 50px;
   text-align: right;
 }
 

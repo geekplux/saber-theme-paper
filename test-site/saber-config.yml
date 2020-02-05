@@ -1,10 +1,19 @@
 theme: ../src
 
 siteConfig:
-  url: https://example.com
-  author: Author of This Site
-  email: author@your-domain.com
+  domain: yourdomain.com
+  title: WebsiteTitle
   description: Write an awesome description for your new site here. You can edit this line in saber-config.yml. It will appear in your document head meta (for Google search results) site description.
+  avatar: /avatar.jpg
+  url: https://yourdomain.com
+  license:
+    text: CC BY-NC-ND 4.0
+    link: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  pagination:
+    prevPage: back
+    nextPage: more articles
+    prevPost: prev post
+    nextPost: next post
 
 themeConfig:
   nav:
