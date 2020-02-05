@@ -51,7 +51,7 @@ plugins:
 
 ## Site Config
 
-Configure site title, description etc in your `saber-config.yml`:
+Configure site title, description etc in your [saber-config.yml](test-site/saber-config.yml):
 
 ```yml
 siteConfig:
